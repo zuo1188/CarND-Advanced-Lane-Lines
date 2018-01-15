@@ -125,6 +125,9 @@ I implemented this step in block `In [123]` in my code in `project.ipynb` in the
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
 
+Because the I used hsl-l channel for edge detection ,so the algorithm do not work well when lighting or shadow changes.
+The classical edge detection method is hard to solve the problem,I wish deep leaning can solve it.But it need many lane mark labling data.
+
 Here's the result:
 
 [normal video](./project_video_output.mp4)
